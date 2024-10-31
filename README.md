@@ -22,7 +22,7 @@ Un portfolio profesional desarrollado con Next.js, TypeScript y Tailwind CSS que
 
 1. Clona el repositorio:
 ```
-git clone https://github.com/GabrielCaja/porta folio_GabrielCajaEgido.git
+git clone https://github.com/GabrielCaja/portafolio_GabrielCajaEgido.git
 ```
 2. Instala las dependencias:
 ```
