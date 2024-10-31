@@ -21,23 +21,23 @@ Un portfolio profesional desarrollado con Next.js, TypeScript y Tailwind CSS que
 ## Instalación
 
 1. Clona el repositorio:
-
+```
 git clone 
-
+```
 2. Instala las dependencias:
-
+```
 cd 
 npm install
-
+```
 3. Inicia el servidor de desarrollo:
-
+```
 npm run dev
-
+```
 4. Abre [http://localhost:3000] en tu navegador.
 
 ## 📂 Estructura del Proyecto
 
-
+```
 ├── app/
 │   ├── components/
 │   │   ├── Cards.tsx
@@ -51,7 +51,7 @@ npm run dev
 │   ├── perfil.jpg
 │   ├── proyectoPeliculas.png
 │   └── proyectoAgenda.png
-
+```
 ## Páginas
 
 - **Inicio (/)**: Presentación personal y tecnologías
