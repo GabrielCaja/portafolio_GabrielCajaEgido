@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Personal
 
-## Getting Started
+Un portfolio profesional desarrollado con Next.js, TypeScript y Tailwind CSS que muestra mis proyectos y habilidades como desarrollador web.
 
-First, run the development server:
+## Características
 
-```bash
+- Diseño responsive y moderno
+- Navegación fluida entre páginas
+- Sección de proyectos con tarjetas interactivas
+- Formulario de contacto
+- Integración con GitHub
+- Animaciones y transiciones suaves
+
+## Tecnologías Utilizadas
+
+- **Next.js** - Framework de React para producción
+- **TypeScript** - JavaScript tipado
+- **Tailwind CSS** - Framework CSS
+- **clsx** - Utilidad para el condicional de nombres de clase
+
+## Instalación
+
+1. Clona el repositorio:
+
+git clone 
+
+2. Instala las dependencias:
+
+cd 
+npm install
+
+3. Inicia el servidor de desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre [http://localhost:3000] en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+├── app/
+│   ├── components/
+│   │   ├── Cards.tsx
+│   │   └── Navbar.tsx
+│   ├── contacto/
+│   │   └── page.tsx
+│   ├── proyectos/
+│   │   └── page.tsx
+│   └── page.tsx
+├── public/
+│   ├── perfil.jpg
+│   ├── proyectoPeliculas.png
+│   └── proyectoAgenda.png
 
-To learn more about Next.js, take a look at the following resources:
+## Páginas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Inicio (/)**: Presentación personal y tecnologías
+- **/proyectos**: Proyectos realizados
+- **/contacto**: Formulario de contacto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Personalización
 
-## Deploy on Vercel
+Puedes personalizar el portfolio modificando:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Colores principales en las clases de Tailwind CSS
+- Imágenes en la carpeta `public/`
+- Contenido de los textos en cada componente
+- Estilos y animaciones en los componentes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

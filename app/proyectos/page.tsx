@@ -18,11 +18,11 @@ export default function Proyectos() {
                     enlace="https://github.com/GabrielCaja/peliculas"
                 />
                 <Cards
-                    imageSrc="/proyectoAgenda.png"
-                    imageAlt="AgendaProyecto"
-                    titulo="Agenda"
-                    descripcion="Una genda sencilla usando Angular"
-                    enlace="https://github.com/GabrielCaja/actividadAgendaUD7"
+                    imageSrc="/java.png"
+                    imageAlt="Proyecto Integrador"
+                    titulo="Proyecto Integrador"
+                    descripcion="Proyecto Integrador creado con Java y MySQL"
+                    enlace="https://github.com/GabrielCaja/PoryectoIntegrador"
                 />
             </div>
             <div className="text-center mt-8 ">
